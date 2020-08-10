@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-book"]=this["webpackJsonpreact-book"]||[]).push([[2],{103:function(e,a,t){"use strict";t.r(a);var n=t(1),s=t.n(n);a.default=function(){return s.a.createElement("div",{className:"container lesson-02"},s.a.createElement("div",{className:"row"},s.a.createElement("div",{className:"col"},s.a.createElement("h2",null,"Lesson 02"))))}}}]);
+//# sourceMappingURL=lesson-02.9da1b15c.chunk.js.map
