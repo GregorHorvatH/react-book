@@ -10,7 +10,7 @@ const Lesson02 = lazy(() =>
 
 export default [
   {
-    title: 'React',
+    title: 'Начало',
     path: '/',
     component: Home,
     exact: true,
