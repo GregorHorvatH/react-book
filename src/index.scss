@@ -82,6 +82,7 @@ p {
   background: #fafafa;
   border-right: 1px solid rgba(0, 0, 0, 0.07);
   position: relative;
+  max-width: 300px;
 
   .menu-button {
     width: 30px;
@@ -120,4 +121,8 @@ p {
 
 .with-margin {
   margin-bottom: 50px;
+}
+
+.col div {
+  margin-bottom: 10px;
 }

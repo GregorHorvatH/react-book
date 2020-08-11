@@ -284,7 +284,7 @@ const Lesson01 = () => (
             Вторым, ссылку на уже существующий DOM-элемент (куда рендерить)
           </li>
         </ul>
-        <CopyBlock text={code.code5} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code5} theme={hybrid} language="jsx" />
 
         <p>
           React использует модель отношений <code>предок - потомок</code>,
@@ -315,14 +315,14 @@ const Lesson01 = () => (
           <li>В JSX можно использовать весь потенциал JavaScript</li>
         </ul>
         <p>JSX не обязателен, но давайте сравним следующий код.</p>
-        <CopyBlock text={code.code6} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code6} theme={hybrid} language="jsx" />
 
         <p>
           <code>JSX</code> значительно чище и читабельнее. Используя{' '}
           <code>JSX</code>, компоненты становятся похожи на HTML-шаблоны.
           Перепишем карточку продукта.
         </p>
-        <CopyBlock text={code.code7} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code7} theme={hybrid} language="jsx" />
 
         <ul>
           <li>
@@ -357,12 +357,12 @@ const Lesson01 = () => (
 
         <h3>6.1. Правило общего родителя</h3>
         <p>Разберем следующий код с не валидной JSX-разметкой.</p>
-        <CopyBlock text={code.code8} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code8} theme={hybrid} language="jsx" />
 
         <p>
           Перепишем код используя <code>React.createElement()</code>.
         </p>
-        <CopyBlock text={code.code9} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code9} theme={hybrid} language="jsx" />
 
         <p>
           Невалидное выражение справа от оператора присваивания, потому что само
@@ -370,10 +370,10 @@ const Lesson01 = () => (
           значение, результат неких вычислений, отсюда и правило общего
           родителя.
         </p>
-        <CopyBlock text={code.code10} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code10} theme={hybrid} language="jsx" />
 
         <p>В JSX это выглядит так.</p>
-        <CopyBlock text={code.code11} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code11} theme={hybrid} language="jsx" />
 
         <p>
           Если в разметке лишний тег-обертка не нужен, используются{' '}
@@ -381,7 +381,7 @@ const Lesson01 = () => (
           встроенный компонент при рендере растворяется, подставляя свое
           содержимое.
         </p>
-        <CopyBlock text={code.code12} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code12} theme={hybrid} language="jsx" />
 
         <p>
           Синтаксис фрагментов можно сократить и не добавлять импорт{' '}
@@ -389,7 +389,7 @@ const Lesson01 = () => (
           заменив пустые JSX-теги на
           <code>React.Fragment</code>.
         </p>
-        <CopyBlock text={code.code13} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code13} theme={hybrid} language="jsx" />
 
         <h3>6.2. Дополнительные материалы</h3>
         <ul>
@@ -455,7 +455,7 @@ const Lesson01 = () => (
             <code>&lt;card&gt; &lt;/card&gt;</code>.
           </p>
         </Alert>
-        <CopyBlock text={code.code14} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code14} theme={hybrid} language="jsx" />
 
         <p>Компоненты-функции составляют большую часть React-приложения.</p>
         <ul>
@@ -465,7 +465,7 @@ const Lesson01 = () => (
           <li>Нет контекста (this)</li>
         </ul>
         <p>Сделаем карточку продукта компонентом-функцией.</p>
-        <CopyBlock text={code.code15} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code15} theme={hybrid} language="jsx" />
       </div>
     </div>
     <div className="row">
@@ -498,7 +498,7 @@ const Lesson01 = () => (
           Если передано только имя пропса - это буль, по умолчанию{' '}
           <code>true</code>.
         </p>
-        <CopyBlock text={code.code16} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code16} theme={hybrid} language="jsx" />
 
         <p>
           Компонент{' '}
@@ -513,7 +513,7 @@ const Lesson01 = () => (
           объявляет параметр <code>props</code>, это всегда будет объект
           содержащий все переданные пропсы.
         </p>
-        <CopyBlock text={code.code17} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code17} theme={hybrid} language="jsx" />
 
         <p>
           Добавим компоненту{' '}
@@ -527,7 +527,7 @@ const Lesson01 = () => (
           </code>{' '}
           несколько других свойств.
         </p>
-        <CopyBlock text={code.code18} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code18} theme={hybrid} language="jsx" />
 
         <p>
           Сразу будем использовать простой паттерн при работе с{' '}
@@ -535,7 +535,7 @@ const Lesson01 = () => (
           это объект, мы можем деструктуризировать его в подписи функции. Это
           сделает код чище и читабельнее.
         </p>
-        <CopyBlock text={code.code19} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code19} theme={hybrid} language="jsx" />
 
         <p>
           В результате мы создали настраиваемый компонент который можно
@@ -607,7 +607,7 @@ const Lesson01 = () => (
           </code>
           , в который мы можем помещать произвольный контент.
         </p>
-        <CopyBlock text={code.code20} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code20} theme={hybrid} language="jsx" />
 
         <p>
           В противном случае нам бы пришлось пробросить пропы для{' '}
@@ -644,7 +644,7 @@ const Lesson01 = () => (
           указать объект с дефолтными значениями пропов (не обязательно всех).
           Этот объект будет слит с пришедшим объектом <code>props</code>.
         </p>
-        <CopyBlock text={code.code21} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code21} theme={hybrid} language="jsx" />
 
         <h3>8.3. Свойство propTypes</h3>
         <p>
@@ -669,13 +669,13 @@ const Lesson01 = () => (
           происходит только во время разработки, в продакшене в ней нет
           необходимости.
         </p>
-        <CopyBlock text={code.code22} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code22} theme={hybrid} language="jsx" />
 
         <p>
           Используем <code>prop-types</code> и опишем пропсы компонента{' '}
           <code>Product</code>.
         </p>
-        <CopyBlock text={code.code23} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code23} theme={hybrid} language="jsx" />
 
         <p>
           Сначала применяются значения по умолчанию, заданные в{' '}
@@ -710,7 +710,7 @@ const Lesson01 = () => (
           Читается как: если условие приводится к <code>true</code>, то рендерим
           разметку.
         </p>
-        <CopyBlock text={code.code24} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code24} theme={hybrid} language="jsx" />
 
         <h3>9.2. if...else с помощью тернарного оператора</h3>
         <p>
@@ -718,16 +718,16 @@ const Lesson01 = () => (
           разметку после <code>?</code>, в противном случае рендерим разметку
           после <code>:</code>.
         </p>
-        <CopyBlock text={code.code25} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code25} theme={hybrid} language="jsx" />
 
         <p>
           Последний пример можно записать по другому, результат будет
           одинаковый.
         </p>
-        <CopyBlock text={code.code26} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code26} theme={hybrid} language="jsx" />
 
         <p>Пусть в компоненте продукта еще есть его доступное количество.</p>
-        <CopyBlock text={code.code27} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code27} theme={hybrid} language="jsx" />
 
         <h3>9.3. Дополинтельные материалы</h3>
         <ul>
@@ -756,7 +756,7 @@ const Lesson01 = () => (
           каждого элемента коллекции, возвращает JSX-разметку. Таким образом
           получаем массив React-элементов который можно рендерить.
         </p>
-        <CopyBlock text={code.code28} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code28} theme={hybrid} language="jsx" />
 
         <h3>10.1. Ключи</h3>
         <p>
@@ -805,7 +805,7 @@ const Lesson01 = () => (
           качестве ключей используются идентификаторы объектов созданных базой
           данных - постоянное, неизменное значение.
         </p>
-        <CopyBlock text={code.code29} theme={hybrid} language="javascript" />
+        <CopyBlock text={code.code29} theme={hybrid} language="jsx" />
 
         <h3>10.2. Дополнительные материалы</h3>
         <Link
