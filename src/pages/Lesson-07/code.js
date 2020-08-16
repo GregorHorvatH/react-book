@@ -48,38 +48,24 @@ const App = () => (
   </div>
 );`;
 
-export const code7 = `import React from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
-
-const App = () => (
-  <div>
-    <Switch>
-      <Route exact path="/" component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Redirect to="/" />
-    </Switch>
-  </div>
-);`;
-
-export const code8 = `<Link to="/books">Books</Link>
+export const code7 = `<Link to="/books">Books</Link>
 
 <Link to="/books?category=adventure#treasure-island">Adventure books</Link>`;
 
-export const code9 = `<Link
-to={{
-  pathname: '/books',
-  search: '?category=adventure',
-  hash: '#treasure-island',
-  state: { from: '/dashboard' },
-}}
+export const code8 = `<Link
+  to={{
+    pathname: '/books',
+    search: '?category=adventure',
+    hash: '#treasure-island',
+    state: { from: '/dashboard' },
+  }}
 />`;
 
-export const code10 = `<NavLink to="/books" className="link" activeClassName="active-link">
-Books
+export const code9 = `<NavLink to="/books" className="link" activeClassName="active-link">
+  Books
 </NavLink>`;
 
-export const code11 = `{
+export const code10 = `{
   key: 'ac3df4',
   pathname: '/books',
   search: '?sortby=latest',
@@ -89,29 +75,29 @@ export const code11 = `{
   }
 }`;
 
-export const code12 = `https://app.com/articles`;
+export const code11 = `https://app.com/articles`;
 
-export const code13 = `https://app.com/articles?category=health&sortBy=latest`;
+export const code12 = `https://app.com/articles?category=health&sortBy=latest`;
 
-export const code14 = `{
+export const code13 = `{
   key: 'ac3df4',
   pathname: '/articles',
   search: '?category=health&sortBy=latest',
   hash: ''
 }`;
 
-export const code15 = `import queryString from 'query-string';
+export const code14 = `import queryString from 'query-string';
 
 const queryParams = queryString.parse(props.location.search);`;
 
-export const code16 = `onCategoryChange = category => {
+export const code15 = `onCategoryChange = category => {
   this.props.history.push({
     pathname: this.props.location.pathname,
     search: \`category=\${category}\`,
   });
 };`;
 
-export const code17 = `const getCategoryFromProps = props => queryString.parse(props.location.search).category;
+export const code16 = `const getCategoryFromProps = props => queryString.parse(props.location.search).category;
 
 componentDidUpdate(prevProps) {
   const prevCategory = getCategoryFromProps(prevProps);
@@ -122,7 +108,7 @@ componentDidUpdate(prevProps) {
   }
 }`;
 
-export const code18 = `componentDidMount() {
+export const code17 = `componentDidMount() {
   /*
   * При маунте компонента проверяем наличие параметра \`category\` в строке запроса.
   */
@@ -151,22 +137,20 @@ export const code18 = `componentDidMount() {
   );
 }`;
 
-export const code19 = `https://app.com/articles/:articleId`;
+export const code18 = `https://app.com/articles/:articleId`;
 
-export const code20 = `<Link
-to={{
+export const code19 = `<Link to={{
   pathname: \`/articles/\${id}\`,
   state: { from: this.props.location },
-}}
->
-Article title
+}}>
+  Article title
 </Link>`;
 
-export const code21 = `handleGoBack = () => {
+export const code20 = `handleGoBack = () => {
   this.props.history.push(this.props.location.state.from);
 };`;
 
-export const code22 = `handleGoBack = () => {
+export const code21 = `handleGoBack = () => {
   const { state } = this.props.location;
   const { category } = this.state;
 
