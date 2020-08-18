@@ -164,11 +164,11 @@ const Lesson07 = () => (
           В основе каждого одностраничного приложения стоит маршрутизатор.
           Компонент
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>BrowserRouter
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>BrowserRouter
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           создает раутер и объект <code>history</code>, чтобы синхронизировать
@@ -189,11 +189,11 @@ const Lesson07 = () => (
           <code>location.pathname</code> соответствует значению пропа{' '}
           <code>path</code>. Компонент{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Route
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Route
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           можно использовать в любом месте где необходимо рендерить контент на
@@ -209,11 +209,11 @@ const Lesson07 = () => (
             <code>location.pathname</code> начинается на указанный путь в{' '}
             <code>path</code>,{' '}
             <code>
-              <span class="token tag">
-                <span class="token tag">
-                  <span class="token punctuation">&lt;</span>Route
+              <span className="token tag">
+                <span className="token tag">
+                  <span className="token punctuation">&lt;</span>Route
                 </span>
-                <span class="token punctuation">&gt;</span>
+                <span className="token punctuation">&gt;</span>
               </span>
             </code>{' '}
             отрендерит указанный компонент, в противном случае вернет{' '}
@@ -226,11 +226,11 @@ const Lesson07 = () => (
           <code>'/about'</code>, первый и третий рауты отрендерят{' '}
           <code>null</code>, а второй отрендерит компонент{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>About
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>About
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           .
@@ -242,11 +242,11 @@ const Lesson07 = () => (
           </li>
           <li>
             <code>
-              <span class="token tag">
-                <span class="token tag">
-                  <span class="token punctuation">&lt;</span>Route
+              <span className="token tag">
+                <span className="token tag">
+                  <span className="token punctuation">&lt;</span>Route
                 </span>
-                <span class="token punctuation">&gt;</span>
+                <span className="token punctuation">&gt;</span>
               </span>
             </code>{' '}
             без указанного <code>path</code> всегда рендерит компонент
@@ -277,11 +277,11 @@ const Lesson07 = () => (
           <code>component</code>. Используется тогда, когда компоненту
           необходимо передать дополнительные пропсы, кроме тех что передает
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Route
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Route
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           .
@@ -329,17 +329,17 @@ const Lesson07 = () => (
         <p>
           Для создания навигации нельзя использовать обычный HTML-тег{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>a
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>a
               </span>{' '}
-              <span class="token attr-name">link</span>
-              <span class="token attr-value">
-                <span class="token punctuation">=</span>
-                <span class="token punctuation">"</span>/about
-                <span class="token punctuation">"</span>
+              <span className="token attr-name">link</span>
+              <span className="token attr-value">
+                <span className="token punctuation">=</span>
+                <span className="token punctuation">"</span>/about
+                <span className="token punctuation">"</span>
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           . При клике, вместо того чтобы изменить URL на текущей странице, и
@@ -349,29 +349,29 @@ const Lesson07 = () => (
         <p>
           Компоненты{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Link
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Link
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           и{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>NavLink
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>NavLink
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           используются для создания ссылок. Они рендерят HTML-тег{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>a
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>a
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           , но с расширенным функционалом клика, используя возможности объекта{' '}
@@ -404,20 +404,20 @@ const Lesson07 = () => (
         <p>
           Компонент{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>NavLink
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>NavLink
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           отличается от{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Link
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Link
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           только тем, что может иметь дополнительные стили, если текущий URL
@@ -459,11 +459,11 @@ const Lesson07 = () => (
         <p>
           Компоненту отрендеренному через{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Route
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Route
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           будет передано несколько специальных пропсов хранящих много полезной
@@ -499,11 +499,11 @@ const Lesson07 = () => (
           <li>
             <code>path</code> - паттерн пути на который замачился{' '}
             <code>
-              <span class="token tag">
-                <span class="token tag">
-                  <span class="token punctuation">&lt;</span>Route
+              <span className="token tag">
+                <span className="token tag">
+                  <span className="token punctuation">&lt;</span>Route
                 </span>
-                <span class="token punctuation">&gt;</span>
+                <span className="token punctuation">&gt;</span>
               </span>
             </code>
             . Используется для создания вложенных маршрутов.
@@ -600,11 +600,11 @@ const Lesson07 = () => (
         <p>
           Допустим, для выбора категории статей используется{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>select
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>select
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           . При выборе опции необходимо обновлять URL используя метод{' '}
@@ -636,11 +636,11 @@ const Lesson07 = () => (
           Перенаправления это удобный инструмент навигации пользователя между
           маршрутами приложения. Для их реализации используется компонент{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Redirect
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Redirect
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           или методы

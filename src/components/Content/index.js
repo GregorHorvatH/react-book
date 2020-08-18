@@ -1,5 +1,5 @@
 import React, { Suspense, useContext } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import appContext from '../../reducer/appContext';
 
 import routes from '../../routes';
@@ -26,6 +26,7 @@ const Content = () => {
                 />
               ) : null,
           )}
+          <Redirect to="/" />
         </Switch>
       </Suspense>
     </div>

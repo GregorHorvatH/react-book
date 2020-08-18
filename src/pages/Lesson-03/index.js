@@ -388,11 +388,11 @@ const Lesson03 = () => (
         <p>
           Теперь можем заменить функционал открыть/закрыть в компоненте{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Toggle
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Toggle
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           .

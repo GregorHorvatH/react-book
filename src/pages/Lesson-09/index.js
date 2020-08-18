@@ -124,11 +124,11 @@ const Lesson09 = () => (
         <p>
           Компонент позволяющий сделать переключаемым любой другой компонент.{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Toggler
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Toggler
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           управляет только изменением состояния, а то как это состояние будет
@@ -140,11 +140,11 @@ const Lesson09 = () => (
           Использование паттерна <code>Render Prop</code> это динамическая
           композиция.{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Toggler
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Toggler
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           открывает доступ к состоянию и методу для его изменения. Разработчик
@@ -234,20 +234,22 @@ const Lesson09 = () => (
           <li>
             Создает объект контекста содержащий пару компонентов:{' '}
             <code>
-              <span class="token tag">
-                <span class="token tag">
-                  <span class="token punctuation">&lt;</span>Context.Provider
+              <span className="token tag">
+                <span className="token tag">
+                  <span className="token punctuation">&lt;</span>
+                  Context.Provider
                 </span>
-                <span class="token punctuation">&gt;</span>
+                <span className="token punctuation">&gt;</span>
               </span>
             </code>
             (поставщик) и{' '}
             <code>
-              <span class="token tag">
-                <span class="token tag">
-                  <span class="token punctuation">&lt;</span>Context.Consumer
+              <span className="token tag">
+                <span className="token tag">
+                  <span className="token punctuation">&lt;</span>
+                  Context.Consumer
                 </span>
-                <span class="token punctuation">&gt;</span>
+                <span className="token punctuation">&gt;</span>
               </span>
             </code>{' '}
             (потребитель).
@@ -299,11 +301,11 @@ const Lesson09 = () => (
           Компонент, который подписывается на изменения контекста. Получает
           текущий контекст из ближайшего сопоставимого{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Provider
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Provider
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           выше в дереве.
@@ -344,11 +346,11 @@ const Lesson09 = () => (
           Чаще всего контекст потребляется многими компонентами, и явно
           оборачивать каждый компонент с помощью{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Context.Consumer
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Context.Consumer
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           не лучший подход. Создадим компонент высшего порядка для подписки на

@@ -273,11 +273,11 @@ const Lesson11 = () => (
         <p>
           Компонент{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Provider
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Provider
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           , оборачивает все дерево компонентов приложения и, используя контекст,

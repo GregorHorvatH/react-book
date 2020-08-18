@@ -49,11 +49,11 @@ const Lesson10 = () => (
           переход компонента от одного состояния к другому с течением времени.
           По умолчанию компонент{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Transition
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Transition
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           не изменяет поведение компонента, который он отображает, а только
@@ -115,20 +115,20 @@ const Lesson10 = () => (
         <p>
           Компонент{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>CSSTransition
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>CSSTransition
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           , в отличии от{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Transition
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Transition
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           , инкапсулирует отслеживание стадии перехода и вызывает перекомпоновку
@@ -184,38 +184,38 @@ const Lesson10 = () => (
         <p>
           Компонент{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>TransitionGroup
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>TransitionGroup
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           используется как контейнер для управления коллекцией компонентов{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>Transition
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>Transition
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           или{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>CSSTransition
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>CSSTransition
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>
           . При удалении и добавлении элементов коллекции,{' '}
           <code>
-            <span class="token tag">
-              <span class="token tag">
-                <span class="token punctuation">&lt;</span>TransitionGroup
+            <span className="token tag">
+              <span className="token tag">
+                <span className="token punctuation">&lt;</span>TransitionGroup
               </span>
-              <span class="token punctuation">&gt;</span>
+              <span className="token punctuation">&gt;</span>
             </span>
           </code>{' '}
           автоматически указывает значение пропа <code>in</code> добавляемого
