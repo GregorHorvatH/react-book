@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e3aadc54e95845c1517886edf30eb0c4",
+    "revision": "589c2d29cf8483b6d46a3da65714b855",
     "url": "/react-book/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-book/static/css/173.11829350.chunk.css"
   },
   {
-    "revision": "9d746f057c7b5a818996",
-    "url": "/react-book/static/css/main.8dbccfa6.chunk.css"
+    "revision": "25d95d47ee449976bdb4",
+    "url": "/react-book/static/css/main.f0c71c49.chunk.css"
   },
   {
     "revision": "7b88e882c16ff440bc2f",
@@ -92,15 +92,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-book/static/js/lesson-15.ce07dce2.chunk.js"
   },
   {
-    "revision": "46ce10163f319f75bc14",
-    "url": "/react-book/static/js/login.5c8b9985.chunk.js"
+    "revision": "3981262ed0ddc5b87d2e",
+    "url": "/react-book/static/js/login.accba5b1.chunk.js"
   },
   {
-    "revision": "10bf4081545ce37d26ad",
-    "url": "/react-book/static/js/logout.c0b8fa6c.chunk.js"
+    "revision": "a5406fa18ab8b5747e8c",
+    "url": "/react-book/static/js/logout.47e84c8a.chunk.js"
   },
   {
-    "revision": "9d746f057c7b5a818996",
+    "revision": "25d95d47ee449976bdb4",
     "url": "/react-book/static/js/main.4a83b894.chunk.js"
   },
   {
@@ -708,7 +708,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-book/static/js/react-syntax-highlighter_languages_refractor_yaml.edb2e32f.chunk.js"
   },
   {
-    "revision": "7cda8a73215018a188d4",
-    "url": "/react-book/static/js/runtime-main.93b7ff9a.js"
+    "revision": "f5ac38d0570eb1fe2c1f",
+    "url": "/react-book/static/js/runtime-main.431f0da4.js"
   }
 ]);

@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-book"]=this["webpackJsonpreact-book"]||[]).push([[18],{113:function(e,t,a){"use strict";a.r(t);var n=a(1),o=a.n(n),c=a(8),r=a(18);t.default=function(){var e=Object(n.useContext)(c.a).dispatch;return o.a.createElement("div",{className:"logout"},o.a.createElement("h2",null,"\u0412\u044b\u0445\u043e\u0434"),o.a.createElement("button",{onClick:function(){e(Object(r.a)()),localStorage.removeItem("token")}},"\u0412\u044b\u0439\u0442\u0438"))}}}]);
-//# sourceMappingURL=logout.c0b8fa6c.chunk.js.map

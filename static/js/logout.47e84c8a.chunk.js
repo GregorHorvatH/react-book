@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-book"]=this["webpackJsonpreact-book"]||[]).push([[18],{113:function(e,t,a){"use strict";a.r(t);var n=a(1),c=a.n(n),o=a(8),r=a(18);t.default=function(){var e=Object(n.useContext)(o.a).dispatch;return c.a.createElement("div",{className:"logout"},c.a.createElement("h2",null,"\u0412\u044b\u0445\u043e\u0434"),c.a.createElement("button",{className:"btn btn-danger",onClick:function(){e(Object(r.a)()),localStorage.removeItem("token")}},"\u0412\u044b\u0439\u0442\u0438"))}}}]);
+//# sourceMappingURL=logout.47e84c8a.chunk.js.map
