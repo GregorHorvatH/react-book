@@ -1,18 +1,35 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useContext } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import appContext from '../../reducer/appContext';
 
 import routes from '../../routes';
 
-const Content = () => (
-  <div className="content">
-    <Suspense fallback={<div>Loading...</div>}>
-      <Switch>
-        {routes.map(({ path, component, exact }) => (
-          <Route path={path} component={component} exact={exact} key={path} />
-        ))}
-      </Switch>
-    </Suspense>
-  </div>
-);
+const Content = () => {
+  const {
+    state: { isAuthorized },
+  } = useContext(appContext);
+
+  return (
+    <div className="content">
+      <Suspense fallback={<div>Loading...</div>}>
+        <Switch>
+          {routes.map(
+            ({ path, component, exact, isSecure, hideWhenAuthorized }) =>
+              (isSecure && isAuthorized) ||
+              (!hideWhenAuthorized && !isSecure) ||
+              (hideWhenAuthorized && !isAuthorized && !isSecure) ? (
+                <Route
+                  path={path}
+                  component={component}
+                  exact={exact}
+                  key={path}
+                />
+              ) : null,
+          )}
+        </Switch>
+      </Suspense>
+    </div>
+  );
+};
 
 export default Content;
