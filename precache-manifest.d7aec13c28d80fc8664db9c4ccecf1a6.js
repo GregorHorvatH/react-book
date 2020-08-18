@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "81abb2d1b31afe8ccfdf3c7466531ef8",
+    "revision": "c60f51ba22895e0fa2013ab1051dcab5",
     "url": "/react-book/index.html"
   },
   {
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-book/static/js/lesson-14.5f1946f9.chunk.js"
   },
   {
-    "revision": "01fcff61d2f1f256cd46",
-    "url": "/react-book/static/js/lesson-15.1c3c999b.chunk.js"
+    "revision": "34c3de888dca6e342c44",
+    "url": "/react-book/static/js/lesson-15.c1a6f4fe.chunk.js"
   },
   {
     "revision": "ac87e8216f693b9cd7ca",
@@ -708,7 +708,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-book/static/js/react-syntax-highlighter_languages_refractor_yaml.b8b94b65.chunk.js"
   },
   {
-    "revision": "4e288efbe777e05d1946",
-    "url": "/react-book/static/js/runtime-main.d01fcd5d.js"
+    "revision": "1537766ddb598927a4d3",
+    "url": "/react-book/static/js/runtime-main.1c196449.js"
   }
 ]);
