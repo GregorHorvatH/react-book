@@ -105,6 +105,7 @@ p {
 
   a {
     color: #444;
+    margin: 5px 0;
   }
 
   a.active {
@@ -125,4 +126,19 @@ p {
 
 .col div {
   margin-bottom: 10px;
+}
+
+.login {
+  .title {
+    margin-bottom: 30px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+
+    .input {
+      margin-bottom: 20px;
+    }
+  }
 }
